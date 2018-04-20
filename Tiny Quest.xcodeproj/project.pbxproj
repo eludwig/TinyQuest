@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4403C52419BF179800F6E565 /* MovableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403C52319BF179800F6E565 /* MovableNode.swift */; };
+		4403C52619C064AC00F6E565 /* Charger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4403C52519C064AC00F6E565 /* Charger.swift */; };
+		44323CC61980640500A41DB9 /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44323CC51980640500A41DB9 /* Special.swift */; };
+		44323CC8198065AB00A41DB9 /* Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44323CC7198065AB00A41DB9 /* Heart.swift */; };
+		445E19E8197E7A64003D5E4D /* TinyStatBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E19E7197E7A64003D5E4D /* TinyStatBoard.swift */; };
+		4462CF8C1951CC52008842AE /* Tiny_QuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4462CF8B1951CC52008842AE /* Tiny_QuestTests.swift */; };
+		446A873719939259007532E2 /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446A873619939259007532E2 /* Tower.swift */; };
+		447559E21991911300A294AD /* Griffon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447559E11991911300A294AD /* Griffon.swift */; };
+		4478CABD197C23EB0036B7A9 /* Common.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4478CABC197C23EB0036B7A9 /* Common.atlas */; };
+		4478CAC1197C24C20036B7A9 /* Poof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478CAC0197C24C20036B7A9 /* Poof.swift */; };
+		4478CAC3197C4D7F0036B7A9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478CAC2197C4D7F0036B7A9 /* Category.swift */; };
+		447CD6E91997D47900BDC1A6 /* Background.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 447CD6E81997D47900BDC1A6 /* Background.atlas */; };
+		447E662919A0EF2900C7BAE0 /* LevelOneBGLoop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 447E662819A0EF2900C7BAE0 /* LevelOneBGLoop.mp3 */; };
+		448DC480196F78210022F2BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC461196F78210022F2BB /* AppDelegate.swift */; };
+		448DC481196F78210022F2BB /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC462196F78210022F2BB /* BackgroundView.swift */; };
+		448DC482196F78210022F2BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448DC464196F78210022F2BB /* Main.storyboard */; };
+		448DC485196F78210022F2BB /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC468196F78210022F2BB /* Direction.swift */; };
+		448DC486196F78210022F2BB /* EyeBank.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 448DC469196F78210022F2BB /* EyeBank.atlas */; };
+		448DC487196F78210022F2BB /* EyeBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC46A196F78210022F2BB /* EyeBank.swift */; };
+		448DC488196F78210022F2BB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC46B196F78210022F2BB /* GameScene.swift */; };
+		448DC489196F78210022F2BB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC46C196F78210022F2BB /* GameView.swift */; };
+		448DC48A196F78210022F2BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448DC46D196F78210022F2BB /* Images.xcassets */; };
+		448DC48C196F78210022F2BB /* LevelOne.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 448DC46F196F78210022F2BB /* LevelOne.atlas */; };
+		448DC48D196F78210022F2BB /* LevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC470196F78210022F2BB /* LevelOne.swift */; };
+		448DC48E196F78210022F2BB /* Mob.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 448DC471196F78210022F2BB /* Mob.atlas */; };
+		448DC48F196F78210022F2BB /* Mob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC472196F78210022F2BB /* Mob.swift */; };
+		448DC491196F78210022F2BB /* MovementDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC474196F78210022F2BB /* MovementDirector.swift */; };
+		448DC493196F78210022F2BB /* SimpleMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC476196F78210022F2BB /* SimpleMovement.swift */; };
+		448DC494196F78210022F2BB /* SimpleXAndYMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC477196F78210022F2BB /* SimpleXAndYMovement.swift */; };
+		448DC495196F78210022F2BB /* TeenyBoyCloth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC478196F78210022F2BB /* TeenyBoyCloth.swift */; };
+		448DC496196F78210022F2BB /* TeenyBoyMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC479196F78210022F2BB /* TeenyBoyMovement.swift */; };
+		448DC497196F78210022F2BB /* TinyBoy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 448DC47A196F78210022F2BB /* TinyBoy.atlas */; };
+		448DC498196F78210022F2BB /* TinyBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC47B196F78210022F2BB /* TinyBoy.swift */; };
+		448DC49B196F78210022F2BB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC47E196F78210022F2BB /* Utils.swift */; };
+		448DC49C196F78210022F2BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448DC47F196F78210022F2BB /* ViewController.swift */; };
+		44928FEC1990EF0600FD4F83 /* Teleport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44928FEB1990EF0600FD4F83 /* Teleport.swift */; };
+		44A2A37F1986980E00A908CD /* TinyBoyCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A2A37E1986980E00A908CD /* TinyBoyCloud.swift */; };
+		44A773471974885600FE68C0 /* BatBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A773461974885600FE68C0 /* BatBoy.swift */; };
+		44A7734919749E9400FE68C0 /* Goblin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7734819749E9400FE68C0 /* Goblin.swift */; };
+		44A7734B1974A78200FE68C0 /* Unicorn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7734A1974A78200FE68C0 /* Unicorn.swift */; };
+		44B09387199B7DC6009B7441 /* Tombstone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B09386199B7DC6009B7441 /* Tombstone.swift */; };
+		44C35C77208A277F00DAC073 /* SimpleXAndYMovementOneSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C35C76208A277F00DAC073 /* SimpleXAndYMovementOneSprite.swift */; };
+		44C42AED197FCB3800FF5135 /* DustMote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C42AEC197FCB3800FF5135 /* DustMote.swift */; };
+		44CEA50A19BCF5C600064750 /* Debug.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 44CEA50919BCF5C600064750 /* Debug.atlas */; };
+		44CEA50C19BCF95C00064750 /* ClickableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA50B19BCF95C00064750 /* ClickableNode.swift */; };
+		44D7162519B267A200E1849F /* Butterfly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7162419B267A200E1849F /* Butterfly.swift */; };
+		44DB1A15199D347300B8F5C9 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DB1A14199D347300B8F5C9 /* HealthBar.swift */; };
+		44E845FA19753FCE00A175FB /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E845F919753FCE00A175FB /* Mouse.swift */; };
+		44E845FC197541CF00A175FB /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E845FB197541CF00A175FB /* Snake.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4462CF861951CC52008842AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4462CF6B1951CC52008842AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4462CF721951CC52008842AE;
+			remoteInfo = "Tiny Quest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4403C52319BF179800F6E565 /* MovableNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovableNode.swift; sourceTree = "<group>"; };
+		4403C52519C064AC00F6E565 /* Charger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
+		44323CC51980640500A41DB9 /* Special.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Special.swift; sourceTree = "<group>"; };
+		44323CC7198065AB00A41DB9 /* Heart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heart.swift; sourceTree = "<group>"; };
+		445E19E7197E7A64003D5E4D /* TinyStatBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyStatBoard.swift; sourceTree = "<group>"; };
+		4462CF731951CC52008842AE /* Tiny Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiny Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4462CF851951CC52008842AE /* Tiny QuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny QuestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4462CF8A1951CC52008842AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4462CF8B1951CC52008842AE /* Tiny_QuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_QuestTests.swift; sourceTree = "<group>"; };
+		446A873619939259007532E2 /* Tower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tower.swift; sourceTree = "<group>"; };
+		447559E11991911300A294AD /* Griffon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Griffon.swift; sourceTree = "<group>"; };
+		4478CABC197C23EB0036B7A9 /* Common.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Common.atlas; sourceTree = "<group>"; };
+		4478CAC0197C24C20036B7A9 /* Poof.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poof.swift; sourceTree = "<group>"; };
+		4478CAC2197C4D7F0036B7A9 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		447CD6E81997D47900BDC1A6 /* Background.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Background.atlas; sourceTree = "<group>"; };
+		447E662819A0EF2900C7BAE0 /* LevelOneBGLoop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LevelOneBGLoop.mp3; sourceTree = "<group>"; };
+		448DC461196F78210022F2BB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		448DC462196F78210022F2BB /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		448DC465196F78210022F2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		448DC468196F78210022F2BB /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		448DC469196F78210022F2BB /* EyeBank.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EyeBank.atlas; sourceTree = "<group>"; };
+		448DC46A196F78210022F2BB /* EyeBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeBank.swift; sourceTree = "<group>"; };
+		448DC46B196F78210022F2BB /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		448DC46C196F78210022F2BB /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		448DC46D196F78210022F2BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		448DC46E196F78210022F2BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448DC46F196F78210022F2BB /* LevelOne.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = LevelOne.atlas; sourceTree = "<group>"; };
+		448DC470196F78210022F2BB /* LevelOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelOne.swift; sourceTree = "<group>"; };
+		448DC471196F78210022F2BB /* Mob.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Mob.atlas; sourceTree = "<group>"; };
+		448DC472196F78210022F2BB /* Mob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mob.swift; sourceTree = "<group>"; };
+		448DC474196F78210022F2BB /* MovementDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementDirector.swift; sourceTree = "<group>"; };
+		448DC476196F78210022F2BB /* SimpleMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleMovement.swift; sourceTree = "<group>"; };
+		448DC477196F78210022F2BB /* SimpleXAndYMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleXAndYMovement.swift; sourceTree = "<group>"; };
+		448DC478196F78210022F2BB /* TeenyBoyCloth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeenyBoyCloth.swift; sourceTree = "<group>"; };
+		448DC479196F78210022F2BB /* TeenyBoyMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeenyBoyMovement.swift; sourceTree = "<group>"; };
+		448DC47A196F78210022F2BB /* TinyBoy.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = TinyBoy.atlas; sourceTree = "<group>"; };
+		448DC47B196F78210022F2BB /* TinyBoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyBoy.swift; sourceTree = "<group>"; };
+		448DC47E196F78210022F2BB /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		448DC47F196F78210022F2BB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44928FEB1990EF0600FD4F83 /* Teleport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teleport.swift; sourceTree = "<group>"; };
+		44A2A37E1986980E00A908CD /* TinyBoyCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyBoyCloud.swift; sourceTree = "<group>"; };
+		44A773461974885600FE68C0 /* BatBoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatBoy.swift; sourceTree = "<group>"; };
+		44A7734819749E9400FE68C0 /* Goblin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goblin.swift; sourceTree = "<group>"; };
+		44A7734A1974A78200FE68C0 /* Unicorn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unicorn.swift; sourceTree = "<group>"; };
+		44B09386199B7DC6009B7441 /* Tombstone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tombstone.swift; sourceTree = "<group>"; };
+		44C35C76208A277F00DAC073 /* SimpleXAndYMovementOneSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleXAndYMovementOneSprite.swift; sourceTree = "<group>"; };
+		44C42AEC197FCB3800FF5135 /* DustMote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DustMote.swift; sourceTree = "<group>"; };
+		44CEA50919BCF5C600064750 /* Debug.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Debug.atlas; sourceTree = "<group>"; };
+		44CEA50B19BCF95C00064750 /* ClickableNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickableNode.swift; sourceTree = "<group>"; };
+		44D7162419B267A200E1849F /* Butterfly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Butterfly.swift; sourceTree = "<group>"; };
+		44DB1A14199D347300B8F5C9 /* HealthBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
+		44E845F919753FCE00A175FB /* Mouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
+		44E845FB197541CF00A175FB /* Snake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4462CF701951CC52008842AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4462CF821951CC52008842AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4462CF6A1951CC52008842AE = {
+			isa = PBXGroup;
+			children = (
+				44ED823E196DF93200575D34 /* Tiny Quest */,
+				4462CF881951CC52008842AE /* Tiny QuestTests */,
+				4462CF741951CC52008842AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4462CF741951CC52008842AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4462CF731951CC52008842AE /* Tiny Quest.app */,
+				4462CF851951CC52008842AE /* Tiny QuestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4462CF881951CC52008842AE /* Tiny QuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4462CF8B1951CC52008842AE /* Tiny_QuestTests.swift */,
+				4462CF891951CC52008842AE /* Supporting Files */,
+			);
+			path = "Tiny QuestTests";
+			sourceTree = "<group>";
+		};
+		4462CF891951CC52008842AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4462CF8A1951CC52008842AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		447E662719A0EF2900C7BAE0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				447E662819A0EF2900C7BAE0 /* LevelOneBGLoop.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		448DC463196F78210022F2BB /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				448DC464196F78210022F2BB /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		44ED823E196DF93200575D34 /* Tiny Quest */ = {
+			isa = PBXGroup;
+			children = (
+				44CEA50919BCF5C600064750 /* Debug.atlas */,
+				447CD6E81997D47900BDC1A6 /* Background.atlas */,
+				447E662719A0EF2900C7BAE0 /* Sounds */,
+				448DC471196F78210022F2BB /* Mob.atlas */,
+				448DC469196F78210022F2BB /* EyeBank.atlas */,
+				448DC46F196F78210022F2BB /* LevelOne.atlas */,
+				448DC47A196F78210022F2BB /* TinyBoy.atlas */,
+				4478CABC197C23EB0036B7A9 /* Common.atlas */,
+				448DC46D196F78210022F2BB /* Images.xcassets */,
+				448DC463196F78210022F2BB /* Base.lproj */,
+				448DC46E196F78210022F2BB /* Info.plist */,
+				448DC461196F78210022F2BB /* AppDelegate.swift */,
+				448DC462196F78210022F2BB /* BackgroundView.swift */,
+				448DC468196F78210022F2BB /* Direction.swift */,
+				448DC46A196F78210022F2BB /* EyeBank.swift */,
+				448DC46B196F78210022F2BB /* GameScene.swift */,
+				448DC46C196F78210022F2BB /* GameView.swift */,
+				445E19E7197E7A64003D5E4D /* TinyStatBoard.swift */,
+				448DC470196F78210022F2BB /* LevelOne.swift */,
+				4478CAC2197C4D7F0036B7A9 /* Category.swift */,
+				448DC472196F78210022F2BB /* Mob.swift */,
+				44CEA50B19BCF95C00064750 /* ClickableNode.swift */,
+				4403C52319BF179800F6E565 /* MovableNode.swift */,
+				44323CC51980640500A41DB9 /* Special.swift */,
+				4478CAC0197C24C20036B7A9 /* Poof.swift */,
+				448DC474196F78210022F2BB /* MovementDirector.swift */,
+				448DC476196F78210022F2BB /* SimpleMovement.swift */,
+				448DC477196F78210022F2BB /* SimpleXAndYMovement.swift */,
+				44C35C76208A277F00DAC073 /* SimpleXAndYMovementOneSprite.swift */,
+				448DC479196F78210022F2BB /* TeenyBoyMovement.swift */,
+				448DC478196F78210022F2BB /* TeenyBoyCloth.swift */,
+				448DC47B196F78210022F2BB /* TinyBoy.swift */,
+				44A2A37E1986980E00A908CD /* TinyBoyCloud.swift */,
+				448DC47E196F78210022F2BB /* Utils.swift */,
+				448DC47F196F78210022F2BB /* ViewController.swift */,
+				44A773461974885600FE68C0 /* BatBoy.swift */,
+				44A7734819749E9400FE68C0 /* Goblin.swift */,
+				44A7734A1974A78200FE68C0 /* Unicorn.swift */,
+				44E845F919753FCE00A175FB /* Mouse.swift */,
+				44E845FB197541CF00A175FB /* Snake.swift */,
+				44C42AEC197FCB3800FF5135 /* DustMote.swift */,
+				44323CC7198065AB00A41DB9 /* Heart.swift */,
+				44928FEB1990EF0600FD4F83 /* Teleport.swift */,
+				447559E11991911300A294AD /* Griffon.swift */,
+				446A873619939259007532E2 /* Tower.swift */,
+				44B09386199B7DC6009B7441 /* Tombstone.swift */,
+				44DB1A14199D347300B8F5C9 /* HealthBar.swift */,
+				44D7162419B267A200E1849F /* Butterfly.swift */,
+				4403C52519C064AC00F6E565 /* Charger.swift */,
+			);
+			path = "Tiny Quest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4462CF721951CC52008842AE /* Tiny Quest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4462CF8F1951CC52008842AE /* Build configuration list for PBXNativeTarget "Tiny Quest" */;
+			buildPhases = (
+				4462CF6F1951CC52008842AE /* Sources */,
+				4462CF701951CC52008842AE /* Frameworks */,
+				4462CF711951CC52008842AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiny Quest";
+			productName = "Tiny Quest";
+			productReference = 4462CF731951CC52008842AE /* Tiny Quest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4462CF841951CC52008842AE /* Tiny QuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4462CF921951CC52008842AE /* Build configuration list for PBXNativeTarget "Tiny QuestTests" */;
+			buildPhases = (
+				4462CF811951CC52008842AE /* Sources */,
+				4462CF821951CC52008842AE /* Frameworks */,
+				4462CF831951CC52008842AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4462CF871951CC52008842AE /* PBXTargetDependency */,
+			);
+			name = "Tiny QuestTests";
+			productName = "Tiny QuestTests";
+			productReference = 4462CF851951CC52008842AE /* Tiny QuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4462CF6B1951CC52008842AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Scorpion Software LLC";
+				TargetAttributes = {
+					4462CF721951CC52008842AE = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 2K454J4F5Z;
+						LastSwiftMigration = 0910;
+					};
+					4462CF841951CC52008842AE = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0910;
+						TestTargetID = 4462CF721951CC52008842AE;
+					};
+				};
+			};
+			buildConfigurationList = 4462CF6E1951CC52008842AE /* Build configuration list for PBXProject "Tiny Quest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4462CF6A1951CC52008842AE;
+			productRefGroup = 4462CF741951CC52008842AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4462CF721951CC52008842AE /* Tiny Quest */,
+				4462CF841951CC52008842AE /* Tiny QuestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4462CF711951CC52008842AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4478CABD197C23EB0036B7A9 /* Common.atlas in Resources */,
+				448DC497196F78210022F2BB /* TinyBoy.atlas in Resources */,
+				448DC48E196F78210022F2BB /* Mob.atlas in Resources */,
+				447CD6E91997D47900BDC1A6 /* Background.atlas in Resources */,
+				448DC48C196F78210022F2BB /* LevelOne.atlas in Resources */,
+				447E662919A0EF2900C7BAE0 /* LevelOneBGLoop.mp3 in Resources */,
+				448DC48A196F78210022F2BB /* Images.xcassets in Resources */,
+				44CEA50A19BCF5C600064750 /* Debug.atlas in Resources */,
+				448DC482196F78210022F2BB /* Main.storyboard in Resources */,
+				448DC486196F78210022F2BB /* EyeBank.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4462CF831951CC52008842AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4462CF6F1951CC52008842AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448DC493196F78210022F2BB /* SimpleMovement.swift in Sources */,
+				4478CAC1197C24C20036B7A9 /* Poof.swift in Sources */,
+				448DC496196F78210022F2BB /* TeenyBoyMovement.swift in Sources */,
+				448DC49C196F78210022F2BB /* ViewController.swift in Sources */,
+				448DC498196F78210022F2BB /* TinyBoy.swift in Sources */,
+				447559E21991911300A294AD /* Griffon.swift in Sources */,
+				448DC481196F78210022F2BB /* BackgroundView.swift in Sources */,
+				44DB1A15199D347300B8F5C9 /* HealthBar.swift in Sources */,
+				44323CC61980640500A41DB9 /* Special.swift in Sources */,
+				44E845FA19753FCE00A175FB /* Mouse.swift in Sources */,
+				4403C52419BF179800F6E565 /* MovableNode.swift in Sources */,
+				4403C52619C064AC00F6E565 /* Charger.swift in Sources */,
+				44B09387199B7DC6009B7441 /* Tombstone.swift in Sources */,
+				448DC480196F78210022F2BB /* AppDelegate.swift in Sources */,
+				448DC487196F78210022F2BB /* EyeBank.swift in Sources */,
+				44A7734919749E9400FE68C0 /* Goblin.swift in Sources */,
+				448DC495196F78210022F2BB /* TeenyBoyCloth.swift in Sources */,
+				448DC48F196F78210022F2BB /* Mob.swift in Sources */,
+				44D7162519B267A200E1849F /* Butterfly.swift in Sources */,
+				448DC485196F78210022F2BB /* Direction.swift in Sources */,
+				44A7734B1974A78200FE68C0 /* Unicorn.swift in Sources */,
+				448DC494196F78210022F2BB /* SimpleXAndYMovement.swift in Sources */,
+				44E845FC197541CF00A175FB /* Snake.swift in Sources */,
+				44A2A37F1986980E00A908CD /* TinyBoyCloud.swift in Sources */,
+				448DC488196F78210022F2BB /* GameScene.swift in Sources */,
+				445E19E8197E7A64003D5E4D /* TinyStatBoard.swift in Sources */,
+				44C35C77208A277F00DAC073 /* SimpleXAndYMovementOneSprite.swift in Sources */,
+				448DC491196F78210022F2BB /* MovementDirector.swift in Sources */,
+				44A773471974885600FE68C0 /* BatBoy.swift in Sources */,
+				44928FEC1990EF0600FD4F83 /* Teleport.swift in Sources */,
+				448DC49B196F78210022F2BB /* Utils.swift in Sources */,
+				446A873719939259007532E2 /* Tower.swift in Sources */,
+				4478CAC3197C4D7F0036B7A9 /* Category.swift in Sources */,
+				448DC489196F78210022F2BB /* GameView.swift in Sources */,
+				44C42AED197FCB3800FF5135 /* DustMote.swift in Sources */,
+				44323CC8198065AB00A41DB9 /* Heart.swift in Sources */,
+				44CEA50C19BCF95C00064750 /* ClickableNode.swift in Sources */,
+				448DC48D196F78210022F2BB /* LevelOne.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4462CF811951CC52008842AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4462CF8C1951CC52008842AE /* Tiny_QuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4462CF871951CC52008842AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4462CF721951CC52008842AE /* Tiny Quest */;
+			targetProxy = 4462CF861951CC52008842AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		448DC464196F78210022F2BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448DC465196F78210022F2BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4462CF8D1951CC52008842AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4462CF8E1951CC52008842AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4462CF901951CC52008842AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Tiny Quest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DNODEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpionsoftware.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4462CF911951CC52008842AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Tiny Quest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpionsoftware.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4462CF931951CC52008842AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tiny Quest.app/Tiny Quest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tiny QuestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpionsoftware.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		4462CF941951CC52008842AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tiny Quest.app/Tiny Quest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tiny QuestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpionsoftware.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4462CF6E1951CC52008842AE /* Build configuration list for PBXProject "Tiny Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4462CF8D1951CC52008842AE /* Debug */,
+				4462CF8E1951CC52008842AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4462CF8F1951CC52008842AE /* Build configuration list for PBXNativeTarget "Tiny Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4462CF901951CC52008842AE /* Debug */,
+				4462CF911951CC52008842AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4462CF921951CC52008842AE /* Build configuration list for PBXNativeTarget "Tiny QuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4462CF931951CC52008842AE /* Debug */,
+				4462CF941951CC52008842AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4462CF6B1951CC52008842AE /* Project object */;
+}
